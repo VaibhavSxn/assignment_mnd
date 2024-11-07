@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
 
-data = pd.read_csv('/Users/i39986/Desktop/mnd/assignment_mnd/project/scores.csv') 
-articles_data = pd.read_csv('/Users/i39986/Desktop/mnd/assignment_mnd/project/articles_xformed.csv')
+data = pd.read_csv('scores.csv') 
+articles_data = pd.read_csv('articles_xformed.csv')
 
 st.title("Journalist Recommendation Powered by Gemma-2")
 st.write("Select a newsroom to view top journalists and their relevant works")
