@@ -39,6 +39,7 @@ Clone this repository or download the project files to your local machine.
 
 Make sure you have your CSV files (scores.csv and articles_xformed.csv) ready in the project directory along side requirements.txt and app.py. These files should contain:
 
+ 
 scores.csv: The scores and information related to journalists.
 articles_xformed.csv: The articles related to the journalists.
 
@@ -69,7 +70,7 @@ The libraries needed to be installed as part of the notebook are listed in the f
 
 As part of the preliminary data analysis, following exercises have been performed:
 
-   1. Plot a simple word cloud
+   1. Plotting of a simple word cloud
    2. Bar chart for most common words
    3. Length of text distribution
    4. Sentiment analysis using both vaderSentiment and BERT
@@ -100,7 +101,7 @@ There were 2 contexts prepared:
 
 Once both the prompts are prepared, the LLM is prompted to generate the following info:
 
-- rating of a journalist for each newsroom based on few run-of-the-mill barometers such as writing style, sentiment, and alignment with newsroom expectations. It can be found in the notebook. Each journalist's context is pitted against the press_releases contextand ratings for all permutations possible have been attained.
+- rating of a journalist for each newsroom based on few run-of-the-mill barometers such as writing style, sentiment, and alignment with newsroom expectations. It can be found in the notebook. Each journalist's context is pitted against the press_releases's context and ratings for all permutations of journalist vs newsroom possible have been attained.
 
 - explanation for those scores
 

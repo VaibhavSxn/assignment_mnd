@@ -21,7 +21,7 @@ if selected_newsroom:
             f"""
             <h3 style='color: #4CAF50; margin-bottom: 5px;'>Journalist: {journalist_email}</h3>
             <p><strong>Score:</strong> {row['score']}</p>
-            <p><strong>Reasons:</strong> {row['newsroom']}</p>
+            <p><strong>Reasons:</strong> {row['motivation']}</p>
             <hr style="border: none; border-top: 1px solid #eee;" />
             """,
             unsafe_allow_html=True
